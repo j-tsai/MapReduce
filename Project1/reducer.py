@@ -9,7 +9,7 @@ maxWord = None
 maxCount = 0
 
 for line in sys.stdin:
-	word, count = line.strip().split("\t",1)
+	word, count = line.split("\t",1)
 	try:
 		count = int(count)
 	except ValueError:
