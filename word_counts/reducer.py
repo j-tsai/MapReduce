@@ -11,7 +11,6 @@ for line in sys.stdin:
         continue
 
     node = data[0]
-    #body0 = [i.lower() for i in ' '.join(data[1])]
     body = data[1].split('|')
     fantastic += body.count('fantastic')
     if 'fantastically' in body:
