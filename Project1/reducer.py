@@ -17,7 +17,7 @@ for line in sys.stdin:
 	if current_word == word:
 		current_count += count
 	else:
-# print counts of each path 
+# 		print counts of each path 
 #		if current_word:
 #			print '%s\t%s' % (current_word, current_count)
 		if current_count > maxCount:
